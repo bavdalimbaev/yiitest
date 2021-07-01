@@ -1,7 +1,7 @@
 <?php
 
 namespace app\models;
-use \yii\db\ActiveRecord;
+use yii\db\ActiveRecord;
 
 
 class Model extends ActiveRecord

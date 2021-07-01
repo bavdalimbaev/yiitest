@@ -2,7 +2,9 @@
 
 namespace app\models;
 
-class Engine extends \yii\db\ActiveRecord
+use yii\db\ActiveRecord;
+
+class Engine extends ActiveRecord
 {
 
     public static function tableName()

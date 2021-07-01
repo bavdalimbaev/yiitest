@@ -2,7 +2,9 @@
 
 namespace app\models;
 
-class Drive extends \yii\db\ActiveRecord
+use yii\db\ActiveRecord;
+
+class Drive extends ActiveRecord
 {
 
     public static function tableName()

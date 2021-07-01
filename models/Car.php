@@ -2,7 +2,9 @@
 
 namespace app\models;
 
-class Car extends \yii\db\ActiveRecord
+use yii\db\ActiveRecord;
+
+class Car extends ActiveRecord
 {
     public static function tableName()
     {

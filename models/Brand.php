@@ -2,7 +2,9 @@
 
 namespace app\models;
 
-class Brand extends \yii\db\ActiveRecord
+use yii\db\ActiveRecord;
+
+class Brand extends ActiveRecord
 {
 
     public static function tableName()

@@ -49,6 +49,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
 //                'catalog/<alias:\w+>' => 'catalog/view',
+                'catalog/ajax' => 'catalog/ajax',
                 'catalog/<alias:[\w_-]+>/<type:[\w+]+>'=>'catalog/type',
                 'catalog/<alias:[\w_-]+>'=>'catalog/brand',
                 'catalog'=>'catalog/index',
